@@ -1,6 +1,6 @@
 {
   "name": "generator-paper-bag",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scaffold PaperBag Application",
   "main": "app/index.js",
   "scripts": {
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/tybenz/generator-paper-bag",
   "dependencies": {
+    "bluebird": "^2.6.4",
+    "chalk": "^0.5.1",
     "recursive-readdir": "^1.2.0",
     "yeoman-generator": "^0.18.6"
   }
